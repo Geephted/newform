@@ -1,0 +1,124 @@
+body{
+    background-color: rgb(112, 112, 112);
+}
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+        
+ .section{
+    width: 400px;
+    height: 88vh;
+    margin: auto;
+    border: 2px solid rgb(68, 67, 67);
+    border-radius: 10px;
+    margin-top: 40px;
+    padding-left: 12px;
+ }
+
+.class1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 10px;
+
+}
+.label1{
+    border: 2px solid red;
+
+}
+.na{
+
+    color: rgb(252, 248, 4);
+    text-align: center;
+}
+
+.names{
+    width: 215px;
+    color: white;
+}
+
+.namecolor{
+    color: white;
+}
+
+.namecolorF{
+    color: white;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+
+.namecolorW{
+    color: white;
+    margin-right: 28px;
+}
+
+.namecolorL{
+    color: white;
+    margin-right: 40px;
+}
+
+.how{
+    margin-top: 10px;
+}
+
+.yes{
+    padding-top: 10px;
+    color: rgb(0, 0, 0);
+}
+.textarea{
+    margin-top: 10px;
+}
+
+.submit{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(252, 248, 4);
+    border: none;
+    border-radius: 5px;
+    font-weight: 600; 
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+input:focus, textarea {
+outline:none; }
+
+.submit:hover{
+    background-color: white;
+}
+
+.submitbutton{
+    margin-top: 20px;
+    text-align: center;
+}
+
+input[type="checkbox"] {
+    accent-color: yellow;
+  }
+input[type="radio"] {
+    accent-color: yellow;
+  }
+
+  input[type="text"]{
+    height: 25px;
+    border-radius: 3px;
+    border: 0;
+    width: 215px;
+  }
+  .group{
+    height: 25px;
+    border-radius: 4px;
+    border: 0;
+  }
+
+  .groupg{
+    height: 25px;
+    border-radius: 4px;
+    border: 0;
+    width: 72px;
+    accent-color: yellow;
+
+  }
+  input[type="label"] {
+    accent-color: yellow;
+}
